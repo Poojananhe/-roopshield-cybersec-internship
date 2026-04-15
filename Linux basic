@@ -1,0 +1,89 @@
+Linux Commands Practice Report
+📌 Objective
+To learn and practice 15 essential Linux commands used for navigation, file management, system monitoring, and networking.
+1. ls (List Directory Contents)
+Description:
+Displays files and directories in the current location.
+Command:  ls
+Example Output: Documents  Downloads  file.txt
+2. cd (Change Directory)
+Description:
+Used to move between directories.
+Command: cd Documents
+Example Output: Directory change successfully and move into the Document folder.
+3. pwd (Print Working Directory)
+Description:
+Shows the current directory path.
+Command: pwd
+Example Output: /home/kali/Documents
+4. mkdir (Make Directory)
+Description:
+Creates a new directory.
+Command: mkdir test_folder
+Example Output: (No output, folder created)
+5. rm (Remove Files/Directories)
+Description:
+Deletes files or directories.
+Command: rm file.txt
+Example Output:
+(No output, file deleted)
+6. cat (View File Content)
+Description:
+Displays content of a file.
+Command: cat file.txt
+Example Output: Hello Linux!
+7. grep (Search Text)
+Description:
+Searches for a specific word or pattern in files.
+Command: grep "Linux" file.txt
+ Example Output: Hello Linux!
+8. chmod (Change Permissions)
+Description:
+Changes file permissions.
+Command: chmod 755 script.sh
+Example Output: (No output, permissions changed)
+9. ps (Process Status)
+Description:
+Shows currently running processes.
+Command: ps
+Example Output:
+PID   TTY          TIME CMD
+1234  pts/0    00:00:01 bash
+5678  pts/0    00:00:00 ps
+10. netstat (Network Statistics)
+Description:
+Displays network connections and ports.
+Command: netstat -tuln
+Example Output: tcp   0   0 0.0.0.0:80   0.0.0.0:*   LISTEN
+11. ifconfig (Network Configuration)
+Description:
+Shows network interface details.
+Command: ifconfig
+Example Output: eth0: inet 192.168.1.10  netmask 255.255.255.0
+12. ping (Check Network Connectivity)
+Description:
+Tests connection to another host.
+Command: ping google.com
+Example Output: 64 bytes from google.com: icmp_seq=1 ttl=117 time=20 ms
+13. whoami (Current User)
+Description:
+Displays the logged-in user.
+Command: whoami
+Example Output: kali
+14. sudo (Superuser Do)
+Description:
+Runs commands with administrative privileges.
+Command: sudo apt update
+Example Output:
+[sudo] password for kali:
+Reading package lists... Done
+15. man (Manual Pages)
+Description:
+Displays help documentation for commands.
+Command: man ls
+Example Output:
+LS(1) User Commands
+NAME
+       ls - list directory contents
+Conclusion: These 15 Linux commands are fundamental for working in a Linux environment. They help users efficiently navigate the system, manage files, monitor processes, and troubleshoot network issues. Mastering these commands is essential for cybersecurity professionals, developers, and system administrators.
+
